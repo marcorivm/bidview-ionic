@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Actors</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+
+        <button ion-item *ngFor="let actor of actors" (click)="openactorDetail(actor)">
+            <ion-avatar item-left>
+                <img src="{{actor.picture}}"/>
+            </ion-avatar>
+            <h2>{{actor.name}}</h2>
+            <p>{{actor.title}}</p>
+        </button>
+
+    </ion-list>
+
+</ion-content>

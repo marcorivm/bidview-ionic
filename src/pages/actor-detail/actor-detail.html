@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Actor</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="actor">
+
+    <ion-card>
+
+        <ion-card-content>
+            <img src="{{actor.picture}}"/>
+            <h2>{{actor.name}}</h2>
+            <h3>{{actor.title}}</h3>
+        </ion-card-content>
+
+        <ion-list>
+            <a href="tel:{{actor.Phone__c}}" ion-item>
+                <ion-icon name="call" item-left></ion-icon>
+                <p>Call Office</p>
+                <h2>{{actor.phone}}</h2>
+            </a>
+            <a href="tel:{{actor.phone}}" ion-item>
+                <ion-icon name="call" item-left></ion-icon>
+                <p>Call Mobile</p>
+                <h2>{{actor.mobilePhone}}</h2>
+            </a>
+            <a href="tel:{{actor.phone}}" ion-item>
+                <ion-icon name="text" item-left></ion-icon>
+                <p>Text</p>
+                <h2>{{actor.mobilePhone}}</h2>
+            </a>
+            <a href="mailto:{{actor.email}}" ion-item>
+                <ion-icon name="mail" item-left></ion-icon>
+                <p>Email</p>
+                <h2>{{actor.email}}</h2>
+            </a>
+        </ion-list>
+
+    </ion-card>
+
+</ion-content>
