@@ -1,4 +1,4 @@
-# Ionic DreamHouse
+# Ionic Sample App
 
 This is a sample movie-fetching app created with Node.js, Ionic3 and Angular4. It has a Firebase backend and CRUD capabilities.
 
