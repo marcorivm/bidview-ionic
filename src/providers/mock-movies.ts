@@ -1,4 +1,4 @@
-let properties: Array<any> = [
+let movies: Array<any> = [
     {
         id: 1,
         address: "18 Henry st",
@@ -18,7 +18,6 @@ let properties: Array<any> = [
         actor: {
             id: 1,
             name: "Caroline Kingsley",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
     },
@@ -41,7 +40,6 @@ let properties: Array<any> = [
         actor: {
             id: 1,
             name: "Caroline Kingsley",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
     },
@@ -64,7 +62,6 @@ let properties: Array<any> = [
         actor: {
             id: 2,
             name: "Michael Jones",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
         }
     },
@@ -87,7 +84,6 @@ let properties: Array<any> = [
         actor: {
             id: 3,
             name: "Jonathan Bradley",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
         }
     },
@@ -110,7 +106,6 @@ let properties: Array<any> = [
         actor: {
             id: 4,
             name: "Jennifer Wu",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
         }
     },
@@ -133,7 +128,6 @@ let properties: Array<any> = [
         actor: {
             id: 5,
             name: "Olivia Green",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
         }
     },
@@ -156,7 +150,6 @@ let properties: Array<any> = [
         actor: {
             id: 6,
             name: "Miriam Aupont",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/miriam_aupont.jpg"
         }
     },
@@ -179,7 +172,6 @@ let properties: Array<any> = [
         actor: {
             id: 7,
             name: "Michelle Lambert",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michelle_lambert.jpg"
         }
     },
@@ -202,7 +194,6 @@ let properties: Array<any> = [
         actor: {
             id: 2,
             name: "Michael Jones",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
         }
     },
@@ -225,7 +216,6 @@ let properties: Array<any> = [
         actor: {
             id: 1,
             name: "Caroline Kingsley",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
     },
@@ -248,7 +238,6 @@ let properties: Array<any> = [
         actor: {
             id: 4,
             name: "Jennifer Wu",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
         }
     },
@@ -271,10 +260,9 @@ let properties: Array<any> = [
         actor: {
             id: 5,
             name: "Olivia Green",
-            title: "Senior actor",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
         }
     }
 ];
 
-export default properties;
+export default movies;
