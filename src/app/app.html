@@ -6,7 +6,7 @@
 
     <ion-list>
       <ion-list-header>
-        Shop
+        Menu
       </ion-list-header>
       <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
@@ -16,7 +16,7 @@
 
     <ion-list>
       <ion-list-header>
-        Help
+        Main
       </ion-list-header>
       <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
