@@ -11,22 +11,24 @@ Follow these instructions to install the app and run it:
     npm install -g ionic cordova
     ```
 
-1. Clone the repository:
+2. Clone the repository:
     ```
     git clone https://github.com/Ph3n0m3n0n/bidview
     ```
 
-1. Navigate to the `bidview` directory :
+3. Navigate to the `bidview` directory :
     ```
     cd bidview
     ```
 
-1. Install the dependencies
+4. Install the dependencies
     ```
     npm install
+    npm install @ionic/app-scripts@latest --save-dev
+    npm install angularfire2 --save
     ```
   
-1. Run the app in the browser
+5. Run the app in the browser
     ```
     ionic serve --lab
     ```
