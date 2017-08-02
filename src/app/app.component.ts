@@ -1,13 +1,13 @@
-import {Component, ViewChild} from '@angular/core';
-import {Nav, Platform} from 'ionic-angular';
-import {StatusBar} from '@ionic-native/status-bar';
-import {SplashScreen} from '@ionic-native/splash-screen';
+import { Component, ViewChild } from '@angular/core';
+import { Nav, Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
-import {MovieListPage} from '../pages/movie-list/movie-list';
-import {ActorListPage} from '../pages/actor-list/actor-list';
-import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
-import {WelcomePage} from '../pages/welcome/welcome';
-import {AboutPage} from '../pages/about/about';
+import { MovieListPage } from '../pages/movie-list/movie-list';
+import { ActorListPage } from '../pages/actor-list/actor-list';
+import { FavoriteListPage } from '../pages/favorite-list/favorite-list';
+import { WelcomePage } from '../pages/welcome/welcome';
+import { AboutPage } from '../pages/about/about';
 
 export interface MenuItem {
     title: string;
@@ -29,7 +29,10 @@ export class MyApp {
 
     helpMenuItems: Array<MenuItem>;
 
-    constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+    constructor(public platform: Platform, 
+                public statusBar: StatusBar, 
+                public splashScreen: SplashScreen) 
+        {
         this.initializeApp();
 
         this.appMenuItems = [
