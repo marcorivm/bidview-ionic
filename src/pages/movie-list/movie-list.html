@@ -18,8 +18,8 @@
                 <ion-thumbnail item-left>
                     <img src="{{movie.thumbnail}}"/>
                 </ion-thumbnail>
-                <h2>{{movie.title}}</h2>
-                <p>{{movie.city}}, {{movie.state}} ∙ {{ movie.price }}</p>
+                <h2>{{ movie.title }}</h2>
+                <p>{{ movie.year }} - {{ movie.genre }} ∙ {{ movie.length }}</p>
             </button>
             <ion-item-options>
                 <button danger (click)="deleteItem(movie)">Delete</button>

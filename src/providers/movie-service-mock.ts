@@ -18,7 +18,7 @@ export class MovieService {
   findByName(searchKey: string) {
     let key: string = searchKey.toUpperCase();
     return Promise.resolve(movies.filter((movie: any) =>
-        (movie.title +  ' ' +movie.address +  ' ' + movie.city + ' ' + movie.description).toUpperCase().indexOf(key) > -1));
+        (movie.title +  ' ' +movie.year +  ' ' + movie.description + ' ' + movie.genre).toUpperCase().indexOf(key) > -1));
   }
 
   getFavorites() {

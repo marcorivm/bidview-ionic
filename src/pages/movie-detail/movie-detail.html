@@ -6,34 +6,22 @@
 
 <ion-content>
     <ion-card *ngIf="movie.id">
-        <img src="{{movie.picture}}"/>
+        <img src="{{movie.poster}}"/>
         <ion-card-content>
-            <h2 class="card-title">{{movie.title}}</h2>
-            <p>{{movie.address}}, {{movie.city}} {{movie.state}}</p>
+            <h2 class="card-title">{{ movie.title }}</h2>
+            <p>{{ movie.year }}, {{ movie.genre }}</p>
         </ion-card-content>
         <ion-list>
 
             <ion-item>
-                <ion-icon item-left name="moon"></ion-icon>
-                <h3>Bedrooms</h3>
-                <ion-note item-right>{{movie.bedrooms}}</ion-note>
+                <h3>Description</h3><br>
+                <ion-note>{{ movie.description }}</ion-note><br>
             </ion-item>
-            <ion-item>
-                <ion-icon item-left name="leaf"></ion-icon>
-                <h3>Bathrooms</h3>
-                <ion-note item-right>{{movie.bathrooms}}</ion-note>
-            </ion-item>
-            <ion-item>
-                <ion-icon item-left name="pricetag"></ion-icon>
-                <h3>Asking Price</h3>
-                <ion-note item-right>{{movie.price}}</ion-note>
-            </ion-item>
-            <button ion-item (click)="openActorDetail(movie.actor)">
+            <button ion-item (click)="openactorDetail(movie.actor)">
                 <ion-avatar item-left>
                     <img src="{{movie.actor.picture}}"/>
                 </ion-avatar>
                 <h2>{{movie.actor.name}}</h2>
-                <p>{{movie.actor.title}}</p>
             </button>
         </ion-list>
 

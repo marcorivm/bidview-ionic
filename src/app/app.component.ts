@@ -36,7 +36,6 @@ export class MyApp {
             {title: 'Movies', component: MovieListPage, icon: 'home'},
             {title: 'Actors', component: ActorListPage, icon: 'people'},
             {title: 'Favorites', component: FavoriteListPage, icon: 'star'},
-            //{title: 'Get Preapproved', component: WelcomePage, icon: 'checkmark-circle'},
         ];
 
         this.accountMenuItems = [

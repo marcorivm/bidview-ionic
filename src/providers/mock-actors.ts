@@ -1,41 +1,33 @@
 let actors: Array<any> = [
     {
         id: 1,
-        name: "Caroline Kingsley",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+        name: "Scarlett Johansson",
+        picture: "https://s-media-cache-ak0.pinimg.com/originals/b9/df/48/b9df48481f012264c2d01a4eda524da7.jpg"
     },
     {
         id: 2,
-        name: "Michael Jones",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
+        name: "Gal Gadot",
+        picture: "http://awiderbridge.org/wp-content/uploads/2016/10/5000958-17-gal-gadot.w750.h560.2x.jpg"
     },
     {
         id: 3,
-        name: "Jonathan Bradley",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+        name: "Keanu Reeves",
+        picture: "http://gazettereview.com/wp-content/uploads/2016/12/keanu-reeves.jpg"
     },
     {
         id: 4,
-        name: "Jennifer Wu",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
+        name: "Alec Baldwin",
+        picture: "http://assets.rebelcircus.com/blog/wp-content/uploads/2015/02/baldwin.jpg"
     },
     {
         id: 5,
-        name: "Olivia Green",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
+        name: "Nicholas Cage",
+        picture: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg/220px-Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg"
     },
     {
         id: 6,
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/miriam_aupont.jpg"
-    },
-    {
-        id: 7,
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michelle_lambert.jpg"
-    },
-    {
-        id: 8,
-        name: "Victor Ochoa",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/victor_ochoa.jpg"
+        name: "Milla Jovovich",
+        picture: "http://i.imgur.com/nsfU35Y.jpg"
     }
 ];
 
